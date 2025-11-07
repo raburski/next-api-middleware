@@ -1,0 +1,46 @@
+{
+	"name": "@raburski/next-api-middleware",
+	"version": "0.1.0",
+	"description": "Generic middleware utilities and types for Next.js API routes",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		}
+	},
+	"scripts": {
+		"build": "tsc",
+		"typecheck": "tsc --noEmit"
+	},
+	"keywords": [
+		"nextjs",
+		"middleware",
+		"api",
+		"typescript"
+	],
+	"author": "",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/raburski/next-api-middleware.git"
+	},
+	"bugs": {
+		"url": "https://github.com/raburski/next-api-middleware/issues"
+	},
+	"homepage": "https://github.com/raburski/next-api-middleware#readme",
+	"peerDependencies": {
+		"next": "^14.0.0 || ^15.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20.0.0",
+		"typescript": "^5.0.0"
+	},
+	"files": [
+		"dist",
+		"README.md"
+	]
+}
+
