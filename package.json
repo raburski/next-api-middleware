@@ -1,6 +1,6 @@
 {
 	"name": "@raburski/next-api-middleware",
-	"version": "0.1.0",
+	"version": "0.1.2",
 	"description": "Generic middleware utilities and types for Next.js API routes",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
@@ -43,4 +43,3 @@
 		"README.md"
 	]
 }
-
